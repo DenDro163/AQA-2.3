@@ -13,7 +13,7 @@ public class PostmanTest {
         given()
                 .baseUri("https://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
-                .body("Zag-Zag") // отправляемые данные 
+                .body("Zag-Zag") // отправляемые данные
 // Выполняемые действия
                 .when()
                 .post("/post")
